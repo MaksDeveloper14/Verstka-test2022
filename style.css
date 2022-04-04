@@ -1,0 +1,383 @@
+/********************************* Сброс стилей базовых ******************************/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*_________________________________________________________________________________________________________
+ _____________________________________________   HEADER   ___________________________________________*/
+.header {
+	width: 100%;
+}
+
+.header-top {
+	min-width: 1200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Open Sans', serif;
+	background-color: #f7f7f7;
+}
+/*ul*/
+.header-top__list {
+	display: flex;
+}
+/*li*/
+.header-top__list-item {
+	list-style: none;
+	margin-right: 27px;
+}
+/*a*/
+.header-top__list-link {
+	color: #202020;
+	text-decoration: none;
+}
+.btn {
+	color: #fbffff;
+	background-color: #ff5f01;
+	padding: 17px;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: #fa8a49;
+}
+
+.header-center {
+
+}
+.header-center_container {
+	width: 1125px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+.tel_number {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans';
+}
+.tel_text,.adress_map {
+	color: #f86c6d;
+}
+
+.header-bottom {
+	min-width: 1200px;
+	width: 100%;
+	background-color: #ff5f01;
+	padding: 23px 0;
+}
+.header-bottom_container {
+	width: 1048px;
+	margin: 0 auto;
+}
+.header-bottom__list {
+	display: flex;
+	justify-content: space-between;
+}
+.header-bottom__item {
+	list-style: none;
+}
+.header-bottom__link {
+	padding: 15px 12px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	border-radius: 20px;
+}
+.header-bottom__link:hover {
+	background-color: white;
+	color: #ff6100;
+}
+
+/*_________________________________________________________________________________________________________
+ _____________________________________________  GALLERY 1  ___________________________________________*/
+
+.gallery1 {
+	width: 100%;
+	margin-top: 100px;
+}
+.gallery1__container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.cards {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.title {
+	text-align: center;
+	font-size: 38px;
+	font-family: 'Open Sans';
+	padding-bottom: 40px;
+}
+.card__image {
+	width: 370px;
+	height: 340px;
+}	
+.card__title {
+	font-size: 25px;
+}
+.card__btn {
+	background-color: #4d59a1;
+	width: 125px;
+	margin: 0 auto;
+	padding: 20px 0;
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* Серый цвет */
+
+.gray {
+	min-width: 1200px;
+	width: 100%;
+	height: 50vh;
+	z-index: -100;
+	background-color: #f3f3f3;
+	margin-top: -310px;
+}
+
+/************************************ Gallery2 ***********************************/
+
+.gallery2 {
+	min-width: 1200px;
+	background-color: #f4f4f4;
+}
+.gallery2__container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.gallery2__title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.gallery2__text {
+	font-size: 18px;
+}
+
+/************************************ Gallery 3 ************************************/
+
+.gallery3 {
+	min-width: 1200px;
+	width: 100%;
+	bottom: solid 3px black;
+	padding-top: 50px;
+	background-color: #f4f4f4;
+}
+.gallery3__container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.gallery3-row1,.gallery3-row2,.gallery3-row3 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.gallery3-row1__item,.gallery3-row2__item,.gallery3-row3__item  {
+	margin-bottom: 10px;
+}
+.gallery3-row1__item {
+	width: 33.33333%;
+	height: 499px;
+}
+.gallery3-row2__item {
+	width: 50%;
+	height: 448px;
+}
+.gallery3-row3__item {
+	width: 33.33333%;
+	height: 599px;
+}
+
+/*изображения*/
+.gallery3-row1__item1 {
+	position: relative;
+	background-image: url('gal1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery3-row1__item2 {
+	position: relative;
+	background-image: url('gal2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery3-row1__item3 {
+	position: relative;
+	background-image: url('gal3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery3-row2__item1 {
+	position: relative;
+	background-image: url('gal4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery3-row2__item2 {
+	position: relative;
+	background-image: url('gal5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery3-row3__item1 {
+	position: relative;
+	background-image: url('gal7.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery3-row3__item2 {
+	position: relative;
+	background-image: url('gal8.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gallery3-row3__item3 {
+	position: relative;
+	background-image: url('gal1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*затемнение изображений*/
+
+.gallery3-row1__item1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.gallery3-row1__item2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.gallery3-row1__item3:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.gallery3-row2__item1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.gallery3-row2__item2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.gallery3-row3__item1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.gallery3-row3__item2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.gallery3-row3__item3:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+
+
+
+/* Галлерея 4 */
+.title-gallery4 {
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	font-family: 'Open Sans';
+}
+.gallery4 {
+	width: 100%;
+}
+
+.gallery4__container {
+	width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.gallery4__item {
+	width: 33.333%;
+	height: 318px;
+	margin-bottom: 15px;
+}
+.gallery4__image {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
